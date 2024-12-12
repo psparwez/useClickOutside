@@ -1,0 +1,50 @@
+{
+  "name": "use-click-outside",
+  "version": "0.1.0",
+  "description": "A React hook to detect clicks outside of a specified element",
+  "main": "dist/useClickOutside.js",
+  "types": "dist/useClickOutside.d.ts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc ",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "jsdom": "^25.0.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.15.0",
+    "vite": "^6.0.1",
+    "vitest": "^2.1.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/use-click-outside.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/use-click-outside/issues"
+  }
+}
